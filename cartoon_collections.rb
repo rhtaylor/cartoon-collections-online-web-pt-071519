@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(arg)
 
-   arg.each{ |x| x.capitalize + "!" }
+   arg.map{ |x| x.capitalize + "!" }
 
 end
 
