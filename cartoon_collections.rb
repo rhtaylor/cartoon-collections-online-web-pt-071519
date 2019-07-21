@@ -4,8 +4,8 @@ end
 
 def summon_captain_planet(arg)
 
-   x = arg.each{ |x| x.first.upcase + "!" }
-   return x
+   x = arg.each{ |x| x.capitalize + "!" }
+     
 end
 
 def long_planeteer_calls(arg)
